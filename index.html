@@ -3,10 +3,13 @@
 <head>
 	<meta charset="utf-8"/>
 	<meta name="Description" content="HTML5 y CSS3"/>
-	<title>Pruebita: Portafolio.
+	<meta name="viewport" content="witdh=device-width, minimun-scale=1, maximun-scale=1"/>
+	<title>..: Pruebita :..
 	</title>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="normalize.css"/>
 	<link rel="stylesheet" href="estilos.css"/>
+	<script src="prefixfree.js"></script>
 </head>
 <body>
 	<header>
@@ -14,7 +17,7 @@
 			<img src="logo.png"/>
 		</figure>
 		<h1>
-			Portafolio de Jonathan Juárez
+			Jonathan Juárez
 		</h1>
 		<figure id="avatar">
 			<img src="avatar.jpg"/>
@@ -26,7 +29,8 @@
 			<li><a href="#">HTML5</a></li>
 			<li><a href="#">CSS3</a></li>
 			<li><a href="#">JavaScript</a></li>
-			<li id="publicar_nav"><a href="#">Publicar</a></li>
+			<li><a href="#">PHP</a></li>
+			<li id="publicar_nav"><a class="icon-pencil" href="#">Publicar</a></li>
 		</ul>
 	</nav>
 	<section id="contenido">
@@ -35,7 +39,7 @@
 				<img src="imagen.jpg"/>
 			</figure>
 			<h2 class="titulo_item">
-				<a href="#">Prestamos Personales</a>
+				<a href="#">¿Qué es HTML5?</a>
 			</h2>
 			<div class="autor_item">Por
 				<a href="#">Chicho Juárez</a>
@@ -47,10 +51,10 @@
 				</span>
 			</div>
 			<div class="votacion">
-				<a href="#" class="up">Up</a>
-				<a href="#" class="down">Down</a>
+				<a href="#" class="up icon-like"></a>
+				<a href="#" class="down icon-dislike"></a>
 				<a href="#" class="comentarios_item">45</a>
-				<a href="#" class="guardar_item">Estrellita</a>
+				<a href="#" class="guardar_item icon-star"></a>
 			</div>
 		</article>
 		<article class="item">
@@ -58,7 +62,7 @@
 				<img src="imagen.jpg"/>
 			</figure>
 			<h2 class="titulo_item">
-				<a href="#">Prestamos Empresariales</a>
+				<a href="#">¿Qué es JavaScript?</a>
 			</h2>
 			<div class="autor_item">Por
 				<a href="#">Chicho Juárez</a>
@@ -70,10 +74,10 @@
 				</span>
 			</div>
 			<div class="votacion">
-				<a href="#" class="up">Up</a>
-				<a href="#" class="down">Down</a>
+				<a href="#" class="up icon-like"></a>
+				<a href="#" class="down icon-dislike"></a>
 				<a href="#" class="comentarios_item">45</a>
-				<a href="#" class="guardar_item">Estrellita</a>
+				<a href="#" class="guardar_item icon-star"></a>
 			</div>
 		</article>
 		<article class="item">
@@ -81,7 +85,7 @@
 				<img src="imagen.jpg"/>
 			</figure>
 			<h2 class="titulo_item">
-				<a href="#">Seguros de Vida</a>
+				<a href="#">¿Qué es Jqery?</a>
 			</h2>
 			<div class="autor_item">Por
 				<a href="#">Chicho Juárez</a>
@@ -93,10 +97,10 @@
 				</span>
 			</div>
 			<div class="votacion">
-				<a href="#" class="up">Up</a>
-				<a href="#" class="down">Down</a>
+				<a href="#" class="up icon-like"></a>
+				<a href="#" class="down icon-dislike"></a>
 				<a href="#" class="comentarios_item">45</a>
-				<a href="#" class="guardar_item">Estrellita</a>
+				<a href="#" class="guardar_item icon-star"></a>
 			</div>
 		</article>
 		<article class="item">
@@ -104,7 +108,7 @@
 				<img src="imagen.jpg"/>
 			</figure>
 			<h2 class="titulo_item">
-				<a href="#">Créditos de Estudio</a>
+				<a href="#">¿Qué es CSS3?</a>
 			</h2>
 			<div class="autor_item">Por
 				<a href="#">Chicho Juárez</a>
@@ -116,10 +120,10 @@
 				</span>
 			</div>
 			<div class="votacion">
-				<a href="#" class="up">Up</a>
-				<a href="#" class="down">Down</a>
+				<a href="#" class="up icon-like"></a>
+				<a href="#" class="down icon-dislike"></a>
 				<a href="#" class="comentarios_item">45</a>
-				<a href="#" class="guardar_item">Estrellita</a>
+				<a href="#" class="guardar_item icon-star"></a>
 			</div>
 		</article>
 		<article class="item">
@@ -127,7 +131,7 @@
 				<img src="imagen.jpg"/>
 			</figure>
 			<h2 class="titulo_item">
-				<a href="#">Seguros Médicos</a>
+				<a href="#">¿Qué es PHP?</a>
 			</h2>
 			<div class="autor_item">Por
 				<a href="#">Chicho Juárez</a>
@@ -139,10 +143,10 @@
 				</span>
 			</div>
 			<div class="votacion">
-				<a href="#" class="up">Up</a>
-				<a href="#" class="down">Down</a>
+				<a href="#" class="up icon-like"></a>
+				<a href="#" class="down icon-dislike"></a>
 				<a href="#" class="comentarios_item">45</a>
-				<a href="#" class="guardar_item">Estrellita</a>
+				<a href="#" class="guardar_item icon-star"></a>
 			</div>
 		</article>
 		<article class="item">
@@ -150,7 +154,7 @@
 				<img src="imagen.jpg"/>
 			</figure>
 			<h2 class="titulo_item">
-				<a href="#">Hipotecas</a>
+				<a href="#">¿Qué es AJAX?</a>
 			</h2>
 			<div class="autor_item">Por
 				<a href="#">Chicho Juárez</a>
@@ -162,16 +166,16 @@
 				</span>
 			</div>
 			<div class="votacion">
-				<a href="#" class="up">Up</a>
-				<a href="#" class="down">Down</a>
+				<a href="#" class="up icon-like"></a>
+				<a href="#" class="down icon-dislike"></a>
 				<a href="#" class="comentarios_item">45</a>
-				<a href="#" class="guardar_item">Estrellita</a>
+				<a href="#" class="guardar_item icon-star"></a>
 			</div>
 		</article>
 	</section>
 	<footer>
 		<p><strong> HTML + CSS3</strong></p> 
-		<p> Powered by HackMort</p>
+		<p> Powered by HackMort ®</p>
 	</footer>
 </body>
 </html>
