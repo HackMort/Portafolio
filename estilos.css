@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
 @font-face {
 	font-family: 'IconFonts';
 	src:url('fonts/IconFonts.eot?z5p425');
@@ -119,7 +121,7 @@ header #avatar img
 }
 header #avatar img:hover
 {
-	transform: scale(1.3);
+	transform: scale(1.1);
 
 }
 header #logo
@@ -179,7 +181,7 @@ nav ul #publicar_nav a
 	border-radius: 5px;
 	box-shadow: rgba(0,0,0,0.5) 5px 5px 20px;
 	font-style: italic;
-	padding: 0.7em 0.8em;
+	padding: 0.8em 0.8em;
 	text-shadow: rgba(0,0,0,0.5) 2px 2px 2px;
 }
 nav ul #publicar_nav a:hover
@@ -276,7 +278,7 @@ nav ul #publicar_nav a:hover
 	color: #169C21;
 }
 
-@media screen and (min-width: 800px){
+@media screen and (max-width: 800px){
 	#contenido
 	{
 		overflow: hidden;
@@ -290,4 +292,26 @@ nav ul #publicar_nav a:hover
 	{
 		margin-right: 2%;
 	}
+}
+/* :: FORMULARIO :: */
+.form
+{
+	padding: 1em;
+	text-align: right;
+	display: none;
+}
+.form input
+{
+	border: 1px solid #CCC;
+	border-radius: 4px;
+	padding: 0.2em 0.6em;
+}
+.form input[type="Submit"]
+{
+	background: #22BCE0;
+	border-color: #22BCE0;
+	box-shadow: rgba(0,0,0,0.3) 5px 5px 20px;
+	color: white;
+	font-style: italic;
+	text-shadow: rgba(0,0,0,0.2) 2px 2px 2px;
 }

@@ -3,10 +3,9 @@
 <head>
 	<meta charset="utf-8"/>
 	<meta name="Description" content="HTML5 y CSS3"/>
-	<meta name="viewport" content="witdh=device-width, minimun-scale=1, maximun-scale=1"/>
+	<meta name="viewport" content="width=device-width, minimun-scale=1, maximun-scale=1"/>
 	<title>..: Pruebita :..
 	</title>
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="normalize.css"/>
 	<link rel="stylesheet" href="estilos.css"/>
 	<script src="prefixfree.js"></script>
@@ -30,12 +29,12 @@
 			<li><a href="#">CSS3</a></li>
 			<li><a href="#">JavaScript</a></li>
 			<li><a href="#">PHP</a></li>
-			<li id="publicar_nav"><a class="icon-pencil" href="#">Publicar</a></li>
+			<li id="publicar_nav"><a class="icon-pencil" href="#" id="mostrar-form">Publicar</a></li>
 		</ul>
 	</nav>
-	<form id="form" class="form" action="" method="">
-		<input type="text" placeholder="Titulo" required>
-		<input type="text" placeholder="Url" required>
+	<form id="form" class="form" action="">
+		<input type="text" id="titulo" placeholder="Titulo" required>
+		<input type="url" id="url" placeholder="Url" required>
 		<input type="Submit" value="Agregar">
 	</form>
 	<section id="contenido">
@@ -182,5 +181,9 @@
 		<p><strong> HTML + CSS3</strong></p> 
 		<p> Powered by HackMort ®</p>
 	</footer>
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js">
+	</script>
+	<script src="formulario.js">
+	</script>
 </body>
 </html>
