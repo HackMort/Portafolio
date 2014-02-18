@@ -278,7 +278,7 @@ nav ul #publicar_nav a:hover
 	color: #169C21;
 }
 
-@media screen and (max-width: 800px){
+@media screen and (min-width: 800px){
 	#contenido
 	{
 		overflow: hidden;
